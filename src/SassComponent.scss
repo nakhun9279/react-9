@@ -26,7 +26,7 @@ $violet: #7950f2;
     &.red {
       // .red 클래스가 .box와 함께 사용되었을 때
       background: $red;
-      @include square(1);
+      @include square(1);//수정
     }
     &.orange {
       background: $orange;
